@@ -16,10 +16,10 @@
 
       <table class="talks">
 
-      <tr><td colspan="3"><a name="2017"/><h4>2017</h4></td></tr>
+      <tr><td colspan="3"><a name="2017"></a><h4>2017</h4></td></tr>
 
       <tr>
-        <td><b>Date</b></td>
+        <td><b>Date</b></td>`
         <td><b>Talk</b></td>
         <td><b>Speaker</b></td>
       </tr>
@@ -48,7 +48,7 @@
         <td>Harvey Sheldon</td>
       </tr>
 
-      <tr><td colspan="3"><a name="2016"/><h4>2016</h4></td></tr>
+      <tr><td colspan="3"><a name="2016"></a><h4>2016</h4></td></tr>
 
       <tr>
         <td><b>Date</b></td>
