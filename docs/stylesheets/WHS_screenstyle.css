@@ -1,3 +1,24 @@
+table.talks, .talks th, .talks td {
+  border: 1px solid black;
+  padding: 6px;
+  vertical-align: top;
+}
+
+table.talks {
+  padding: 1px;
+  text-align: left;
+}
+
+table.talks h4 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+table.talks td[colspan="3"] {
+  padding: 0;
+}
+
 hr { clear: left; }
 
 /* CSS Document for WHS */
