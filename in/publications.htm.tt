@@ -1,3 +1,4 @@
+[% id = 'publications' -%]
 	<div id="mainright">
 	  <h3>A few front covers</h3>
 	  <img src="images/Roehampton_village_cover_small.jpg" alt="Roehampton Village"><br />

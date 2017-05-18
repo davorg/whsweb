@@ -1,3 +1,4 @@
+[% id = 'home' -%]
     <div id="mainright">
       <h3>Old Wandsworth</h3>
       <img src="images/terminus_surrey_iron_railway_c1825_small.jpg" alt="Surrey Iron Railway">The terminus of the Surrey Iron Railway, by Wandsworth Dock, c.1825<br />

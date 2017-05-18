@@ -1,3 +1,4 @@
+[% id = 'talks' -%]
 	<div id="mainright">
 	  <h3>Putney Then and Now</h3>
 	  <img src="images/putney_c1820_small.jpg" alt="Putney 1820">Putney c.1820<br />
