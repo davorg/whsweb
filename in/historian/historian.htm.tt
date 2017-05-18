@@ -1,6 +1,6 @@
 [% id = 'publications' -%]
 	<div id="mainright">
-	  <img src="../images/wh_103_small.jpg" alt="Historian 103 cover">Historian Issue 103<br />
+	  <img src="/images/wh_103_small.jpg" alt="Historian 103 cover">Historian Issue 103<br />
     </div>
 		
     <div class="cushycms" id="mainleft">

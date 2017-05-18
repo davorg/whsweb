@@ -1,13 +1,13 @@
 [% id = 'publications' -%]
 	<div id="mainright">
-	  <img src="../images/wh_102_small.jpg" alt="Historian 102 cover">Historian Issue 102<br/>
-	  <img src="../images/wh_101_small.jpg" alt="Historian 101 cover">Historian Issue 101<br/>
-	  <img src="../images/wh_100_small.jpg" alt="Historian 100 cover">Historian Issue 100<br/>
-	  <img src="../images/wh_099_small.jpg" alt="Historian 99 cover">Historian Issue 99<br/>
-	  <img src="../images/wh_098_small.jpg" alt="Historian 98 cover">Historian Issue 98<br/>
-	  <img src="../images/wh_097_small.jpg" alt="Historian 97 cover">Historian Issue 97<br/>
-	  <img src="../images/wh_096_small.jpg" alt="Historian 96 cover">Historian Issue 96<br/>
-	  <img src="../images/wh_095_small.jpg" alt="Historian 95 cover">Historian Issue 95<br/>
+	  <img src="/images/wh_102_small.jpg" alt="Historian 102 cover">Historian Issue 102<br/>
+	  <img src="/images/wh_101_small.jpg" alt="Historian 101 cover">Historian Issue 101<br/>
+	  <img src="/images/wh_100_small.jpg" alt="Historian 100 cover">Historian Issue 100<br/>
+	  <img src="/images/wh_099_small.jpg" alt="Historian 99 cover">Historian Issue 99<br/>
+	  <img src="/images/wh_098_small.jpg" alt="Historian 98 cover">Historian Issue 98<br/>
+	  <img src="/images/wh_097_small.jpg" alt="Historian 97 cover">Historian Issue 97<br/>
+	  <img src="/images/wh_096_small.jpg" alt="Historian 96 cover">Historian Issue 96<br/>
+	  <img src="/images/wh_095_small.jpg" alt="Historian 95 cover">Historian Issue 95<br/>
 	</div>
 		
     <div class="cushycms" id="mainleft">

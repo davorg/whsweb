@@ -34,7 +34,7 @@ hr { clear: left; }
 
 /* Blanket Rules */
 
-body {font-size: 80%; font-family: "Lucida Grande", Verdana, sans-serif;background: url(../images/bg.jpg);text-align: justify;}
+body {font-size: 80%; font-family: "Lucida Grande", Verdana, sans-serif;background: url(/images/bg.jpg);text-align: justify;}
 body a:link, body a:visited  {text-decoration: none;color: #030300;}
 	
 img {border:0;}
@@ -49,11 +49,11 @@ img {border:0;}
 
 /* Overall Containers*/
 
-#container {width: 900px;margin: 0 auto 0 auto; background: #FFF url(../images/dummy.gif) left 120px no-repeat;border: 1px solid #000;}
+#container {width: 900px;margin: 0 auto 0 auto; background: #FFF url(/images/dummy.gif) left 120px no-repeat;border: 1px solid #000;}
 
 /* Masthead */
 
-#masthead {width: 900px;height: 120px;margin: 0;background: #FFFFCE url(../images/WHS_logo_founded_1953.jpg) left center no-repeat;}
+#masthead {width: 900px;height: 120px;margin: 0;background: #FFFFCE url(/images/WHS_logo_founded_1953.jpg) left center no-repeat;}
 #frmasthead {width: 100%;height: 100px;margin: 0;}
 #masthead h1 {margin: 0;padding: 0px 0 0 133px; clear:left; font:Times New Roman; font-weight:normal; font-size:32pt; padding:0; margin:0 0 0 133px; text-align: center}
 #masthead h2 {margin: 0;padding: 0px 0 0 767px; clear:left; font:Times New Roman; font-weight:normal; font-size:16pt; padding:0; margin:0 0 0 133px; text-align: center}
