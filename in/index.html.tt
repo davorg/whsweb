@@ -52,7 +52,7 @@
 
         <hr>
 
-        <h3 style="text-align:center">
+        <h3 class="center">
           January 2017 - Britain's historians hear about Battersea's estates
         </h3>
 
@@ -75,7 +75,7 @@
 
       <hr>
 
-      <h3 style="text-align:center">
+      <h3 class="center">
         Obtain a copy of "The Map of Georgian Wandsworth"
       </h3>
 
@@ -94,7 +94,7 @@
       <hr>
 
 
-      <h3 style="text-align:center">The Tooting Common Heritage Project
+      <h3 class="center">The Tooting Common Heritage Project
       </h3>
 
       <p><img src="images/tooting_common.jpg" alt="Tooting Common" class=left>
@@ -112,7 +112,7 @@
 
       <hr>
 
-      <h3 style="text-align:center">30th April 2016 - New WHS publication on Roehampton
+      <h3 class="center">30th April 2016 - New WHS publication on Roehampton
       </h3>
 
       <p>The Society has published 'Roehampton Village', by Dorian Gerhold. It traces the story of the village from its origins as a row of cottages on former common land in about 1600 through several major transformations to the present day. Existing buildings including the King's Head, the former Montague Arms, the terraced houses of Medfield Street and Holy Trinity church are brought into the story. The booklet has 40 pages and 45 illustrations, many of them in colour, including a fine series of maps and plans. The cost is &pound;5, plus &pound;1.50 postage, from Dorian Gerhold, 19 Montserrat Road, Putney, SW15 2LD.
@@ -120,12 +120,12 @@
 
       <hr>
 
-      <h3 style="text-align:center">The Wandsworth Heritage Festival 2016
+      <h3 class="center">The Wandsworth Heritage Festival 2016
       </h3>
 
 	  <p>The festival included an event linked with the WHS talk on 29th April 2016 about the history of The Fitzhugh Estate:
       </p>
-	  <h4 style="text-align:center">Blueprint For Living</h4>
+	  <h4 class="center">Blueprint For Living</h4>
 
 	  <p>A group exhibition featuring work by Sharon O'Neill, Marc Isaacs and archives from the RIBA Collections.
       </p>
@@ -204,7 +204,7 @@
       <hr>
 
       <div class="date">
-        <p style="text-align:center">Last site update: 2 May 2017</p>
+        <p class="center">Last site update: 2 May 2017</p>
       </div>
 
     </div>
