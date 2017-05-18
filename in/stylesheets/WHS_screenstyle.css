@@ -1,3 +1,8 @@
+.issuetitle {
+  color: #000080;
+  font-weight: bold;
+}
+
 table.talks, .talks th, .talks td {
   border: 1px solid black;
   padding: 6px;
