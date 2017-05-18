@@ -68,6 +68,7 @@ hr { clear: left; }
 
 	#home #navbar a.home {border-bottom: 2px solid #20F;}
 	#aboutus #navbar a.aboutus {border-bottom: 2px solid #20F;}
+	#achievements #navbar a.achievements {border-bottom: 2px solid #20F;}
 	#membership #navbar a.membership {border-bottom: 2px solid #20F;}
     #history  #navbar a.history {border-bottom: 2px solid #20F;}
 	#archaeology #navbar a.archaeology {border-bottom: 2px solid #20F;}
