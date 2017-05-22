@@ -100,7 +100,7 @@ img {
   margin: 0;
   padding: 0px 0 0 133px;
   clear:left;
-  font:Times New Roman;
+  font:"Times New Roman";
   font-weight:normal;
   font-size:32pt;
   padding:0;
@@ -111,7 +111,7 @@ img {
   margin: 0;
   padding: 0px 0 0 767px;
   clear:left;
-  font:Times New Roman;
+  font:"Times New Roman";
   font-weight:normal;
   font-size:16pt;
   padding:0;
