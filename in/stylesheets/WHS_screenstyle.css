@@ -34,171 +34,651 @@ hr { clear: left; }
 
 /* Blanket Rules */
 
-body {font-size: 80%; font-family: "Lucida Grande", Verdana, sans-serif;background: url(/images/bg.jpg);text-align: justify;}
-body a:link, body a:visited  {text-decoration: none;color: #030300;}
+body {
+  font-size: 80%;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  background: url(/images/bg.jpg);text-align: justify;
+}
+
+body a:link, body a:visited  {
+  text-decoration: none;color: #030300;
+}
 	
-img {border:0;}
+img {
+  border:0;
+}
 	
-.description {font-size: 0.85em;margin: 0 25px 25px 25px;text-align: left;}
+.description {
+  font-size: 0.85em;
+  margin: 0 25px 25px 25px;
+  text-align: left;
+}
 
-.greybox {margin: 25px 0 25px 0;padding: 10px;background-color: #eee;border: 1px dotted #000; font-size:90%; }
+.greybox {
+  margin: 25px 0 25px 0;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px dotted #000; 
+  font-size:90%;
+}
 
-.greybox ul {font-size:90%;}
+.greybox ul {
+  font-size:90%;
+}
 
-.photocaption {text-align: center;font-style: italic;font-size: 0.8em;width: 200px;margin: 0 auto 0 auto;}
+.photocaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+  width: 200px;
+  margin: 0 auto 0 auto;
+}
 
 /* Overall Containers*/
 
-#container {width: 900px;margin: 0 auto 0 auto; background: #FFF url(/images/dummy.gif) left 120px no-repeat;border: 1px solid #000;}
+#container {
+  width: 900px;
+  margin: 0 auto 0 auto;
+  background: #FFF url(/images/dummy.gif) left 120px no-repeat;
+  border: 1px solid #000;
+}
 
 /* Masthead */
 
-#masthead {width: 900px;height: 120px;margin: 0;background: #FFFFCE url(/images/WHS_logo_founded_1953.jpg) left center no-repeat;}
-#frmasthead {width: 100%;height: 100px;margin: 0;}
-#masthead h1 {margin: 0;padding: 0px 0 0 133px; clear:left; font:Times New Roman; font-weight:normal; font-size:32pt; padding:0; margin:0 0 0 133px; text-align: center}
-#masthead h2 {margin: 0;padding: 0px 0 0 767px; clear:left; font:Times New Roman; font-weight:normal; font-size:16pt; padding:0; margin:0 0 0 133px; text-align: center}
+#masthead {
+  width: 900px;
+  height: 120px;
+  margin: 0;
+  background: #FFFFCE url(/images/WHS_logo_founded_1953.jpg) left center no-repeat;
+}
+#frmasthead {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+}
+#masthead h1 {
+  margin: 0;
+  padding: 0px 0 0 133px;
+  clear:left;
+  font:Times New Roman;
+  font-weight:normal;
+  font-size:32pt;
+  padding:0;
+  margin:0 0 0 133px;
+  text-align: center;
+}
+#masthead h2 {
+  margin: 0;
+  padding: 0px 0 0 767px;
+  clear:left;
+  font:Times New Roman;
+  font-weight:normal;
+  font-size:16pt;
+  padding:0;
+  margin:0 0 0 133px;
+  text-align: center
+}
 
 /*#masthead img {margin: 0px 0 0 590px; top;}*/
 
 /* navigation */
 
-#navbar {margin: 0 auto 0 auto;text-align: center;}
-#navbar ul {list-style: none;margin: 0; padding: 0;background-color: #90ADCA;border-bottom: 1px solid #000;}
-#navbar li {display: inline;margin: 0 15px 0 0;padding: 0;line-height: 200%;}
-#navbar li a:link, #navbar li a:visited {text-decoration: none;font-size: 1em;font-weight: bold;color: black;}
-#navbar li a:hover {color:blue; border-bottom: 2px dotted blue; }
+#navbar {
+  margin: 0 auto 0 auto;text-align: center;
+}
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #90ADCA;
+  border-bottom: 1px solid #000;
+}
+#navbar li {
+  display: inline;
+  margin: 0 15px 0 0;
+  padding: 0;
+  line-height: 200%;
+}
+#navbar li a:link, #navbar li a:visited {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+#navbar li a:hover {
+  color:blue; 
+  border-bottom: 2px dotted blue;
+}
 
 /* highlight current page */
 
-#home #navbar a.home {border-bottom: 2px solid #20F;}
-#aboutus #navbar a.aboutus {border-bottom: 2px solid #20F;}
-#achievements #navbar a.achievements {border-bottom: 2px solid #20F;}
-#membership #navbar a.membership {border-bottom: 2px solid #20F;}
-#history  #navbar a.history {border-bottom: 2px solid #20F;}
-#archaeology #navbar a.archaeology {border-bottom: 2px solid #20F;}
-#talks #navbar a.talks {border-bottom: 2px solid #20F;}
-#publications #navbar a.publications {border-bottom: 2px solid #20F;}
-#links #navbar a.links {border-bottom: 2px solid #20F;}
+#home #navbar a.home {
+  border-bottom: 2px solid #20F;
+}
+#aboutus #navbar a.aboutus {
+  border-bottom: 2px solid #20F;
+}
+#achievements #navbar a.achievements {
+  border-bottom: 2px solid #20F;
+}
+#membership #navbar a.membership {
+  border-bottom: 2px solid #20F;
+}
+#history  #navbar a.history {
+  border-bottom: 2px solid #20F;
+}
+#archaeology #navbar a.archaeology {
+  border-bottom: 2px solid #20F;
+}
+#talks #navbar a.talks {
+  border-bottom: 2px solid #20F;
+}
+#publications #navbar a.publications {
+  border-bottom: 2px solid #20F;
+}
+#links #navbar a.links {
+  border-bottom: 2px solid #20F;
+}
 
 /* main left col */
 
-#mainleft {width:600px;margin: 10px 10px 10px 10px;padding: 0 10px 0 10px;border-right: 1px solid #222;}
+#mainleft {
+  width:600px;
+  margin: 10px 10px 10px 10px;
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #222;
+}
 
-#mainleft p {font-size: .9em; margin: 0 0 10px 0;}
-#mainleft .date {font-size:.8em; font-weight:bold;}
+#mainleft p {
+  font-size: .9em; margin: 0 0 10px 0;
+}
+#mainleft .date {
+  font-size:.8em; font-weight:bold;
+}
 	
-#mainleft a:link {color:blue}
-#mainleft a:visited {border-bottom: 1px dotted #030;line-height: 160%; color:red}
+#mainleft a:link {
+  color:blue
+}
+#mainleft a:visited {
+  border-bottom: 1px dotted #030;line-height: 160%; color:red
+}
 
-#mainleft h1 {clear:left;font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:50pt;text-shadow: 4px 4px 4px #aaa;}
-#mainleft h2 {clear:left;font-size:1.2em;color: #000;background-color:#90ADCA;padding:0.3em;}
-#mainleft h3 {font-size:1em;margin: 20px 0 5px 0;}
-#mainleft h4 {font-size:1em;color:#000;background-color:#CCC;padding:0.3em; text-align: center}
-#mainleft h5 {clear:left;font-family: "Tangerine", Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:40pt;text-shadow: 4px 4px 4px #aaa;}
+#mainleft h1 {
+  clear:left;
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:50pt;
+  text-shadow: 4px 4px 4px #aaa;
+}
+#mainleft h2 {
+  clear:left;
+  font-size:1.2em;
+  color: #000;
+  background-color:#90ADCA;
+  padding:0.3em;
+}
+#mainleft h3 {
+  font-size:1em;
+  margin: 20px 0 5px 0;
+}
+#mainleft h4 {
+  font-size:1em;
+  color:#000;
+  background-color:#CCC;
+  padding:0.3em;
+  text-align: center
+}
+#mainleft h5 {
+  clear:left;
+  font-family: "Tangerine", Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:40pt;
+  text-shadow: 4px 4px 4px #aaa;
+}
 
-#mainleft strong {color:#990000;}
-#mainleft li{margin:0 0 0 40px}
+#mainleft strong {
+  color:#990000;
+}
+#mainleft li{
+  margin:0 0 0 40px
+}
 
-.ticket {margin: 10px auto 25px auto;font-size:.8em;color:#000;padding:1em;border: 1px solid #000;}
+.ticket {
+  margin: 10px auto 25px auto;
+  font-size:.8em;
+  color:#000;
+  padding:1em;
+  border: 1px solid #000;
+}
 
-#mainleft .body img {float: left;clear: left;margin: 0 10px 10px 0;}
-#mainleft .index {float: left; clear: left; margin: 0 15px 15px 0;}
+#mainleft .body img {
+  float: left;
+  clear: left;
+  margin: 0 10px 10px 0;
+}
+#mainleft .index {
+  float: left;
+  clear: left;
+  margin: 0 15px 15px 0;
+}
 
 /* main right col */
 
-#mainright {width: 260px;text-align: center;float: right;font-family:'Lucida Grande',Verdana,sans-serif;}
-#mainright p {font-size: .9em;}
-#mainright img {margin: 10px auto 0 auto;}
-#mainright .bodytext {margin: 0 10px 0 10px;font-size: .8em;font-family: "Lucida Grande", Verdana, sans-serif; padding: 5px; font-weight:bold}
-#mainright ul {text-align: left;margin-right: 10px;}
-#mainright li a:link, #mainright li a:visited {border-bottom: 1px dotted #030;line-height: 160%;}
-#mainright .description {width: 200px; margin: 10px auto 0 auto; border:1px solid #000; padding: 5px;font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; font-size: 3em; text-align: center;}
+#mainright {
+  width: 260px;
+  text-align: center;
+  float: right;
+  font-family:'Lucida Grande',Verdana,sans-serif;
+}
+#mainright p {
+  font-size: .9em;
+}
+#mainright img {
+  margin: 10px auto 0 auto;
+}
+#mainright .bodytext {
+  margin: 0 10px 0 10px;
+  font-size: .8em;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  padding: 5px;
+  font-weight:bold
+}
+#mainright ul {
+  text-align: left;margin-right: 10px;
+}
+#mainright li a:link, #mainright li a:visited {
+  border-bottom: 1px dotted #030;line-height: 160%;
+}
+#mainright .description {
+  width: 200px;
+  margin: 10px auto 0 auto;
+  border:1px solid #000;
+  padding: 5px;
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-size: 3em;
+  text-align: center;
+}
 
-.logos {margin:0 0 10px 0; padding:0;position: relative; left: 75px;}
-.logos a {text-decoration:none;}
+.logos {
+  margin:0 0 10px 0;
+  padding:0;
+  position: relative;
+  left: 75px;
+}
+.logos a {
+  text-decoration:none;
+}
 	
 /* Centre-only column for photographs etc */
 	
-#photocenter {width: 880px; margin: 0 auto 0 auto; text-align: center;}
-#photocenter p { width: 90%; margin: 5px auto 5px auto; font-size: .9em; }
-#photocenter img {margin: 5px auto 5px auto;}
+#photocenter {
+  width: 880px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+#photocenter p {
+  width: 90%;
+  margin: 5px auto 5px auto;
+  font-size: .9em;
+}
+#photocenter img {
+  margin: 5px auto 5px auto;
+}
 
-#photocenter a:link {color:blue}
-#photocenter a:visited {border-bottom: 1px dotted #030;line-height: 160%; color:red}
+#photocenter a:link {
+  color:blue
+}
+#photocenter a:visited {
+  border-bottom: 1px dotted #030;
+  line-height: 160%;
+  color:red
+}
 
-#photocenter h1 {clear:left;font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:50pt;text-shadow: 4px 4px 4px #90ADCA;}	
-#photocenter h2{width: 90%; margin: 5px auto 5px auto; text-align:center; font-size:1.2em;color: #000;background-color:#90ADCA;;padding:0.3em;}
-#photocenter form {margin: 10px 0 10px 0;}
-#photocenter table {width: 100%; text-align: left;}
-#photocenter legend {font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:36pt;}
-#photocenter .greybox {width: 90%; margin: 5px auto 5px auto;padding: 10px;background-color: #eee;border: 1px dotted #000; font-size:90%; text-align: left;}
+#photocenter h1 {
+  clear:left;
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:50pt;
+  text-shadow: 4px 4px 4px #90ADCA;
+}	
+#photocenter h2{
+  width: 90%;
+  margin: 5px auto 5px auto;
+  text-align:center;
+  font-size:1.2em;
+  color: #000;
+  background-color:#90ADCA;
+  padding:0.3em;
+}
+#photocenter form {
+  margin: 10px 0 10px 0;
+}
+#photocenter table {
+  width: 100%; text-align: left;
+}
+#photocenter legend {
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:36pt;
+}
+#photocenter .greybox {
+  width: 90%;
+  margin: 5px auto 5px auto;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px dotted #000;
+  font-size:90%;
+  text-align: left;
+}
 
 /* Left justified single column for special pages */
 
-#singleleft {width: 880px; margin: 10px 10px 10px 10px; text-align: left;}
+#singleleft {
+  width: 880px;
+  margin: 10px 10px 10px 10px;
+  text-align: left;
+}
 
-#singleleft a:link {color:blue}
-#singleleft a:visited {border-bottom: 1px dotted #030;line-height: 160%; color:red}
+#singleleft a:link {
+  color:blue
+}
+#singleleft a:visited {
+  border-bottom: 1px dotted #030;
+  line-height: 160%;
+  color:red
+}
 
-#singleleft h1 {clear:left;font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:50pt;text-shadow: 4px 4px 4px #aaa;}
-#singleleft h2 {clear:left;font-size:1.2em;color: #000;background-color:#CCC;padding:0.3em;text-align: center;}
-#singleleft h3 {font-size:1em;margin: 20px 0 5px 0;text-align: center;}
-#singleleft h4 {font-size:1em;color:#000;background-color:#CCC;padding:0.3em;}
-#singleleft h5 {clear:left;font-family: "Tangerine", Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:40pt;text-shadow: 4px 4px 4px #aaa;}
+#singleleft h1 {
+  clear:left;
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:50pt;
+  text-shadow: 4px 4px 4px #aaa;
+}
+#singleleft h2 {
+  clear:left;
+  font-size:1.2em;
+  color: #000;
+  background-color:#CCC;
+  padding:0.3em;
+  text-align: center;
+}
+#singleleft h3 {
+  font-size:1em;
+  margin: 20px 0 5px 0;
+  text-align: center;
+}
+#singleleft h4 {
+  font-size:1em;
+  color:#000;
+  background-color:#CCC;
+  padding:0.3em;
+}
+#singleleft h5 {
+  clear:left;
+  font-family: "Tangerine", Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:40pt;
+  text-shadow: 4px 4px 4px #aaa;
+}
 
-#singleleft strong {color:#990000;}	
-#singleleft p {font-size: .9em; margin: 0 0 10px 0;}
-#singleleft fn { width: 96%; margin:10px 10px 10px 10px; font-size: .8em;  }
-#singleleft img {margin: 10px 10px 10px 10px;} img.right {float:right} img.left {float:left} img.center {float:center}
-#singleleft form {margin: 10px 0 10px 0;}
-#singleleft table {width: 100%; text-align: left;}
-#singleleft legend {font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:36pt;}
-#singleleft .greybox {width: 90%; margin: 5px auto 5px auto;padding: 10px;background-color: #eee;border: 1px dotted #000; font-size:90%; text-align: left;}
+#singleleft strong {
+  color:#990000;
+}	
+#singleleft p {
+  font-size: .9em;
+  margin: 0 0 10px 0;
+}
+#singleleft fn {
+  width: 96%;
+  margin:10px 10px 10px 10px;
+  font-size: .8em;
+}
+#singleleft img {
+  margin: 10px 10px 10px 10px;
+}
+
+img.right {
+  float:right
+}
+img.left {
+  float:left
+}
+img.center {
+  float:center
+}
+#singleleft form {
+  margin: 10px 0 10px 0;
+}
+#singleleft table {
+  width: 100%; text-align: left;
+}
+#singleleft legend {
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:36pt;
+}
+#singleleft .greybox {
+  width: 90%;
+  margin: 5px auto 5px auto;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px dotted #000;
+  font-size:90%;
+  text-align: left;
+}
 
 /* Left justified single column for special pages */
 	
-#singleleftlinks {width: 800px; margin: 10px 10px 10px 50px; text-align: left;}
+#singleleftlinks {
+  width: 800px;
+  margin: 10px 10px 10px 50px;
+  text-align: left;
+}
 
-#singleleftlinks a:link {color:blue}
-#singleleftlinks a:visited {border-bottom: 1px dotted #030;line-height: 160%; color:red}
+#singleleftlinks a:link {
+  color:blue
+}
+#singleleftlinks a:visited {
+  border-bottom: 1px dotted #030;
+  line-height: 160%;
+  color:red
+}
 
-#singleleftlinks h1 {clear:left;font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:50pt;text-shadow: 4px 4px 4px #aaa;}
-#singleleftlinks h2 {clear:left;font-size:1.2em;color: #000;background-color:#CCC;padding:0.3em;text-align: center;}
-#singleleftlinks h3 {font-size:1em;margin: 5px 0 5px 0px;text-align: left;}
-#singleleftlinks h4 {font-size:1em;color:#000;background-color:#CCC;padding:0.3em;}
-#singleleftlinks h5 {clear:left;font-family: "Tangerine", Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:40pt;text-shadow: 4px 4px 4px #aaa;}
+#singleleftlinks h1 {
+  clear:left;
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:50pt;
+  text-shadow: 4px 4px 4px #aaa;
+}
+#singleleftlinks h2 {
+  clear:left;
+  font-size:1.2em;
+  color: #000;
+  background-color:#CCC;
+  padding:0.3em;
+  text-align: center;
+}
+#singleleftlinks h3 {
+  font-size:1em;
+  margin: 5px 0 5px 0px;
+  text-align: left;
+}
+#singleleftlinks h4 {
+  font-size:1em;
+  color:#000;
+  background-color:#CCC;
+  padding:0.3em;
+}
+#singleleftlinks h5 {
+  clear:left;
+  font-family: "Tangerine", Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:40pt;
+  text-shadow: 4px 4px 4px #aaa;
+}
 
-#singleleftlinks strong {color:#990000;}	
-#singleleftlinks p { width: 96%; margin:10px 10px 10px 10px; font-size: .9em;  }
-#singleleftlinks fn { width: 96%; margin:10px 10px 10px 10px; font-size: .8em;  }
-#singleleftlinks img {margin: 5px auto 5px auto;}
-#singleleftlinks form {margin: 10px 0 10px 0;}
-#singleleftlinks table {width: 100%; text-align: left;}
-#singleleftlinks legend {font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif; padding: 0; margin:0 0 5px 0; font-weight:normal; font-size:36pt;}
-#singleleftlinks .greybox {width: 90%; margin: 5px auto 5px auto;padding: 10px;background-color: #eee;border: 1px dotted #000; font-size:90%; text-align: left;}
-#singleleftlinks li a:link, #singleleftlinks li a:visited {border-bottom: 1px dotted #030;line-height: 160%; margin: 10px 10px 10px 10px;}
+#singleleftlinks strong {
+  color:#990000;
+}	
+#singleleftlinks p {
+  width: 96%;
+  margin:10px 10px 10px 10px;
+  font-size: .9em;
+}
+#singleleftlinks fn {
+  width: 96%;
+  margin:10px 10px 10px 10px;
+  font-size: .8em;
+}
+#singleleftlinks img {
+  margin: 5px auto 5px auto;
+}
+#singleleftlinks form {
+  margin: 10px 0 10px 0;
+}
+#singleleftlinks table {
+  width: 100%;
+  text-align: left;
+}
+#singleleftlinks legend {
+  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  padding: 0;
+  margin:0 0 5px 0;
+  font-weight:normal;
+  font-size:36pt;
+}
+#singleleftlinks .greybox {
+  width: 90%;
+  margin: 5px auto 5px auto;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px dotted #000;
+  font-size:90%;
+  text-align: left;
+}
+#singleleftlinks li a:link, #singleleftlinks li a:visited {
+  border-bottom: 1px dotted #030;
+  line-height: 160%;
+  margin: 10px 10px 10px 10px;
+}
 
 /* little box for prices etc */
 
-#littlebox {text-align: center;margin: 10px auto 5px auto;width: 200px;border: 2px solid #000;padding: 5px;}
+#littlebox {
+  text-align: center;
+  margin: 10px auto 5px auto;
+  width: 200px;
+  border: 2px solid #000;
+  padding: 5px;
+}
 
 /* Footer */
 
-#footer {clear: both;width: 900px;height: 5em;min-height: 75px;margin: 0 0 0 0;border-width: 1px 0 0 0;border-style: solid;border-color: #000;background-color:#FFFFCE;text-align: center;font-size: 0.8em;color: #AAA;}	
-#footer a:link, #footer a:visited {text-decoration: none;color: black;font-size: 1em;font-weight: bold;}
-#footer a:hover {color: blue;}
-#footer ul {text-align: center;list-style: none;margin: 15px 5px 15px 0;line-height: 120%;}
-#footer li {display: inline;margin: 0 5px;padding: 20px 1px 1px 2px;border-width: 0 0 1px 0;border-style: dotted;}
-#footer img {float: right;margin: 10px 10px auto 10px;}
-#footer p {margin: 5px 10px 10px 0;}
-.copyright {text-align:center; font-size:.9em;}	
+#footer {
+  clear: both;
+  width: 900px;
+  height: 5em;
+  min-height: 75px;
+  margin: 0 0 0 0;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #000;
+  background-color:#FFFFCE;
+  text-align: center;
+  font-size: 0.8em;
+  color: #AAA;
+}	
+#footer a:link, #footer a:visited {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+#footer a:hover {
+  color: blue;
+}
+#footer ul {
+  text-align: center;
+  list-style: none;
+  margin: 15px 5px 15px 0;
+  line-height: 120%;
+}
+#footer li {
+  display: inline;
+  margin: 0 5px;
+  padding: 20px 1px 1px 2px;
+  border-width: 0 0 1px 0;
+  border-style: dotted;
+}
+#footer img {
+  float: right;
+  margin: 10px 10px auto 10px;
+}
+#footer p {
+  margin: 5px 10px 10px 0;
+}
+.copyright {
+  text-align:center; font-size:.9em;
+}	
 	
 /* Tooltip for popup extra text box to say more about a talk etc */
 
-#tooltip15l { position: relative; }
-#tooltip15l a span { display: none; color: #FFFFFF; }
-#tooltip15l a:hover span { display: block; position: absolute; width: 400px; background: #FFFFCE; height: 215px; left: 250px; top: -10px; color: #000000; padding: 0 5px; border-style: solid; border-color: #008080}
+#tooltip15l {
+  position: relative;
+}
+#tooltip15l a span {
+  display: none; color: #FFFFFF;
+}
+#tooltip15l a:hover span {
+  display: block;
+  position: absolute;
+  width: 400px;
+  background: #FFFFCE;
+  height: 215px;
+  left: 250px;
+  top: -10px;
+  color: #000000;
+  padding: 0 5px;
+  border-style: solid;
+  border-color: #008080
+}
 
-#tooltip5l { position: relative; }
-#tooltip5l a span { display: none; color: #FFFFFF; }
-#tooltip5l a:hover span { display: block; position: absolute; width: 400px; background: #FFFFCE; height: 75px; left: 250px; top: -10px; color: #000000; padding: 0 5px; border-style: solid; border-color: #008080}
+#tooltip5l {
+  position: relative;
+}
+#tooltip5l a span {
+  display: none; color: #FFFFFF;
+}
+#tooltip5l a:hover span {
+  display: block;
+  position: absolute;
+  width: 400px;
+  background: #FFFFCE;
+  height: 75px;
+  left: 250px;
+  top: -10px;
+  color: #000000;
+  padding: 0 5px;
+  border-style: solid;
+  border-color: #008080
+}
