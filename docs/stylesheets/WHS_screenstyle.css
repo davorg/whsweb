@@ -37,7 +37,7 @@ hr { clear: left; }
 body {
   font-size: 80%;
   font-family: "Lucida Grande", Verdana, sans-serif;
-  background: url(/images/bg.jpg);text-align: justify;
+  text-align: justify;
 }
 
 body a:link, body a:visited  {
@@ -79,7 +79,7 @@ img {
 #container {
   width: 900px;
   margin: 0 auto 0 auto;
-  background: #FFF url(/images/dummy.gif) left 120px no-repeat;
+  background: #FFF;
   border: 1px solid #000;
 }
 
