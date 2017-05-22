@@ -205,7 +205,7 @@ img {
 
 #mainleft h1 {
   clear:left;
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -232,7 +232,7 @@ img {
 }
 #mainleft h5 {
   clear:left;
-  font-family: "Tangerine", Times New Roman, serif;
+  font-family: "Tangerine", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -298,7 +298,7 @@ img {
   margin: 10px auto 0 auto;
   border:1px solid #000;
   padding: 5px;
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   font-size: 3em;
   text-align: center;
 }
@@ -340,7 +340,7 @@ img {
 
 #photocenter h1 {
   clear:left;
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -363,7 +363,7 @@ img {
   width: 100%; text-align: left;
 }
 #photocenter legend {
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -398,7 +398,7 @@ img {
 
 #singleleft h1 {
   clear:left;
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -426,7 +426,7 @@ img {
 }
 #singleleft h5 {
   clear:left;
-  font-family: "Tangerine", Times New Roman, serif;
+  font-family: "Tangerine", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -466,7 +466,7 @@ img.center {
   width: 100%; text-align: left;
 }
 #singleleft legend {
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -501,7 +501,7 @@ img.center {
 
 #singleleftlinks h1 {
   clear:left;
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -529,7 +529,7 @@ img.center {
 }
 #singleleftlinks h5 {
   clear:left;
-  font-family: "Tangerine", Times New Roman, serif;
+  font-family: "Tangerine", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
@@ -561,7 +561,7 @@ img.center {
   text-align: left;
 }
 #singleleftlinks legend {
-  font-family: "Tangerine", Monotype Corsiva, Times New Roman, serif;
+  font-family: "Tangerine", "Monotype Corsiva", "Times New Roman", serif;
   padding: 0;
   margin:0 0 5px 0;
   font-weight:normal;
