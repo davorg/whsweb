@@ -456,9 +456,10 @@ img.right {
 img.left {
   float:left
 }
+/* Invalid CSS. Not used anywhere.
 img.center {
   float:center
-}
+} */
 #singleleft form {
   margin: 10px 0 10px 0;
 }
